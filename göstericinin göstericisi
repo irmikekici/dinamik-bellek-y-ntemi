@@ -16,7 +16,10 @@
 
 int main()
 {
-	int **m=(int**)malloc(3*sizeof(int*));
+	int **m=(int**)malloc(3*sizeof(int*)); 
+/* ilki tamsayi gosterici gostericisi icin yer ayirmaktadir.burada ayrilan veri tipi int degil int* biciminde matrisin her satirini temsil eden bir tamsayi gostericisidir
+   ikincisi her satirin kendi elemanlari icin yer ayirma int tipi icin olur.
+   baska bir degisle once 3 adet tamsayi gostericisi icin yer ayrilir.sonra bu gostericinin 3 elemanli olan gostericiler icin de 4 adet tamsayi yeri ayrilir. */
 	int i,j;
 	for(i=0;i<3;i++)
 	{
