@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main()
-{
+{ //klavyeden girilin N adet tamsayinin bellekte yer ayrilarak bellege yazilmasini ve bellekten okunarak ekrana listelenmesini saglayan c programini yaziniz
 
     int *p;
     int N;
