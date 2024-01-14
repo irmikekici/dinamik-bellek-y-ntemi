@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main() //kullanici tarafindan girilen ikim adet tamsayi icin farkli bellek bolgelerinde yer ayrilmaktadir.buna gore bu iki bellek bolgesinde yer alan sayilarin yerlerinin degistirilmesini saglayan c programini yaziniz
 {
 
 
