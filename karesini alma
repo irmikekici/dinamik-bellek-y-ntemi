@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main()
-{
+{ //Bilgisayar tarafindan rastgele uretilen N adet tamsayiyi bellege yazan ve bellekten okuyarak karelerini ektana listeleyen c programini yaziniz
 
 
     int *p,i,N;
