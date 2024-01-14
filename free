@@ -21,7 +21,7 @@ int main()
     else
     {
     printf("Malloc kullanarak basarili bir sekilde ayirma islemini yaptim\n");
-    free(ptr);
+    free(ptr);     // malloc ve calloc fonksiyonlariyla hafizadan ayrilan yeri setbest birakmamizi saglar.
     printf("Malloc icin ayrilan yer serbest birakildi\n");
 
     printf("Calloc kullanarak basarili bir sekilde ayirma islemini yaptim\n");
