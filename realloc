@@ -31,7 +31,7 @@ int main()
       n=10;
       printf("Girdigimiz sayi degeri %d\n",n);
       
-      ptr=realloc(ptr,n*sizeof(int));   77daha onceden malloc veya calloc ile bellekten ayrilan yere degisiklikler yapmamizi saglar.eger bellekte yeterli alan ayrilamamissa NULL geriye doner.
+      ptr=realloc(ptr,n*sizeof(int));   //daha onceden malloc veya calloc ile bellekten ayrilan yere degisiklikler yapmamizi saglar.eger bellekte yeterli alan ayrilamamissa NULL geriye doner.
       printf("Data bellek basarili bir sekilde tekrar ayrildi\n");
       for(i=5;i<10;i++)
       {
