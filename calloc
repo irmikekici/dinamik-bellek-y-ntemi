@@ -11,7 +11,7 @@ int main()
   int i;
   printf("Girdigimiz sayi degeri %d\n",n);
 
-  ptr=(int*)calloc(n,sizeof(int));
+  ptr=(int*)calloc(n,sizeof(int)); //Hafizada yer ayirmamizi saglar mallocla tak farki ne kadar yer ayirmak istiyorsak * yerine , kullaniriz 
 
   if(ptr==NULL)
   {
