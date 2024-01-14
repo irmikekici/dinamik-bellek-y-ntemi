@@ -11,7 +11,7 @@ int main()
   int i;
   printf("Girdigimiz sayi degeri %d\n",n);
 
-  ptr=(int*)malloc(n*sizeof(int));
+  ptr=(int*)malloc(n*sizeof(int)); // Hafizada belirli buyuklukte yer ayirmamizi saglar.Ne kadar deger ayirmak istiyorsak n degerine o kadar deger viririz.yeterli alan olmazsa NULL geri dondurur
 
   if(ptr==NULL)
   {
