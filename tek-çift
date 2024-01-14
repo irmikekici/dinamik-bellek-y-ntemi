@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main() // Kullanic tarafindan girilen N degerine kadar olan tek sayilari ve cift sayilari farkli bellek bolgelerinde tutulan,farkli bellek bolgesindeki bu sayilari okuyarak ekrana listeleyen c programini yaziniz
 {
 	int *p1,*p2;
 	int N,i;
