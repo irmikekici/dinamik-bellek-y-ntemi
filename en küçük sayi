@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main() //bilgisayar tarafindan uretilen N adet rastgele tamsayinin bellekten yer ayrilarak bellege yazilmasi ve bu tamsayilari icerisinden en kucugunun bulunmasini saglayan c programini yaziniz
 {
 
     int *p;
